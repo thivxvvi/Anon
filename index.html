@@ -5,14 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Send2Tristan</title>
   <link rel="stylesheet" href="style.css" />
+  
+  <link rel="icon" href="/p.ico" type="image/x-icon">
 </head>
 <body>
+  
+  <div class="gif-wrapper">
+    <img src="p.gif" />
+    
+  </div>
   <div class="container">
 
     <!-- Send Form -->
     <div class="card" id="form-card">
-      <h1>Send Tristan A Massage</h1>
-      <p class="subtitle">&#x1F512; 100% Anonymous</p>
+      <h1>Send Tristan A Message</h1>
+      <p class="subtitle"> 100% Anonymous</p>
 
       <div class="error-box" id="send-error">Failed to send. Please try again.</div>
 
@@ -24,8 +31,7 @@
       ></textarea>
       <div class="char-count"><span id="char-count">0</span>/500</div>
 
-      <button class="btn btn-green" id="send-btn" onclick="sendMessage()">
-        &#x27A4; Send Message
+      <button class="btn btn-green" id="send-btn" onclick="sendMessage()"> Send Message
       </button>
     </div>
 
@@ -71,7 +77,7 @@
       } catch (e) {
         errorBox.style.display = 'block';
         btn.disabled = false;
-        btn.textContent = '✤ Send Message';
+        btn.textContent = 'Send Message';
       }
     }
 
@@ -81,7 +87,7 @@
       document.getElementById('success-card').style.display = 'none';
       document.getElementById('form-card').style.display = 'block';
       document.getElementById('send-btn').disabled = false;
-      document.getElementById('send-btn').textContent = '➤ Send Message';
+      document.getElementById('send-btn').textContent = ' Send Message';
     }
   </script>
 </body>
