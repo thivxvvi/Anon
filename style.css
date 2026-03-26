@@ -54,7 +54,7 @@ body::before {
 /* 📱 Mobile tuning */
 @media (max-width: 768px) {
   .gif-wrapper {
-    top: 5vh;
+    top: 8vh;
   }
 
   .gif-wrapper img {
@@ -65,7 +65,7 @@ body::before {
 /* 💻 Large screens / desktop tuning */
 @media (min-width: 1200px) {
   .gif-wrapper {
-    top: 10vh;
+    top: 4vh;
   }
 
   .gif-wrapper img {
