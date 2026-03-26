@@ -107,6 +107,5 @@ app.delete('/api/messages/:id', async (req, res) => {
 // START SERVER
 // ─────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`🚀 Server running at http://localhost:${PORT}`);
-  console.log(`🔐 Admin panel: http://localhost:${PORT}/messages.html`);
+  console.log(`🚀 Server running`);
 });
