@@ -35,7 +35,7 @@ body::before {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -65%);
+  transform: translate(-50%, -45%);
   z-index: 3;
 }
 
